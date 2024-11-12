@@ -1,0 +1,3 @@
+{
+  "coap://localhost/*": { "oscore": { "basedir": "client/for-server/" } }
+}
