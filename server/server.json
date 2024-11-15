@@ -1,4 +1,0 @@
-{
-    ":client": { "oscore": { "basedir": "server/from-client/" } }
-  }
-  

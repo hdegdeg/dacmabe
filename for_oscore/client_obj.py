@@ -24,3 +24,14 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
+
+"""
+async def main():
+    protocol = await Context.create_client_context()
+    msg = Message(code=GET, uri="coap://localhost/other/separate")
+    response = await protocol.request(msg).response
+    print(response.payload)
+
+asyncio.run(main())
+"""
